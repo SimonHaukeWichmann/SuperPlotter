@@ -12,7 +12,6 @@ app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
 toolbox_color = '#383838'
-print('test')
 
 x, y = sympy.symbols('x y')
 
